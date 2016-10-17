@@ -1,0 +1,15 @@
+---
+applications:
+- name: BillsOfHealth
+  memory: 128M
+  buildpack: php_buildpack
+  timeout: 60
+  services:
+  - Compose for PostgreSQL BillsOfHealth
+  - Language Translator BillsOfHealth
+  - Data Cache BillsOfHealth
+  - API Connect BillsOfHealth
+
+
+
+  
